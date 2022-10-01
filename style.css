@@ -1,0 +1,113 @@
+@charset "UFT-8";
+@font-face {
+    font-family: 'vingadores';
+    src: url('fonts/AVENGEANCE HEROIC AVENGER BD.otf')format('opentype');
+    font-weight:normal;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'marvel';
+    src: url('fonts/Bebas-Regular.otf')format('opentype');
+    font-weight:normal;
+    font-size: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ html, body{
+    background-color: rgb(29, 29, 29);
+    min-height: 100vh;
+    
+}
+
+header{
+    height: 230px;
+    width: 100%;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 7vh;
+    font-family: 'vingadores',sans-serif ;
+    font-size: 5em;
+}
+
+header > p {
+    margin-top: 10px;
+    font-family: 'marvel', Helvetica, sans-serif;
+    font-size: 1.8em;
+    padding: 5px;
+    color:white;
+    border: 1px solid rgba(255, 0, 0, 0.466);
+    display: inline-block;
+}
+
+
+
+section >h1{
+    color: white;
+    font-family:'vingadores', Helvetica, sans-serif;    text-align: center;
+    font-size: 4em;
+    padding-top: 20px;
+}
+
+section.normal{
+    background-color: white;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    line-height: 2em;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+section >p{
+    font-family: 'Fredoka One', cursive;
+    text-align: justify;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+section.imagem{
+    
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img1{
+    margin-top: 3px;
+    background-image: url(imagens/capitaoamerica2.jpg);
+    height: 100vh;
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+section#img2{
+    background-image: url(imagens/homemdeferro.jpg);
+    height: 100vh;
+}
+
+section#img3{
+    background-image: url(imagens/hulk.jpg);
+    height: 100vh;
+}
+
+section#img4{
+    background-image: url(imagens/thor.jpg);
+    height: 100vh;
+    background-position: center right;
+}
+
+section#img5{
+    background-image: url(imagens/homemaranha.jpg);
+    height: 100vh;
+}
