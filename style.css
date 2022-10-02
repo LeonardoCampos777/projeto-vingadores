@@ -27,7 +27,8 @@
 }
 
 header{
-    height: 230px;
+    max-height: 230px;
+    height: 100vh;
     width: 100%;
     background-color: rgb(29, 28, 28);
     color: white;
@@ -110,4 +111,13 @@ section#img4{
 section#img5{
     background-image: url(imagens/homemaranha.jpg);
     height: 100vh;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: bolder;
+    padding: 5px;
 }
