@@ -1,4 +1,5 @@
 @charset "UFT-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @font-face {
     font-family: 'vingadores';
     src: url('fonts/AVENGEANCE HEROIC AVENGER BD.otf')format('opentype');
@@ -12,7 +13,7 @@
     font-size: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 
 
 *{
