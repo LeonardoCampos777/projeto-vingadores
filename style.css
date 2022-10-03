@@ -122,3 +122,12 @@ footer{
     font-size: bolder;
     padding: 5px;
 }
+
+footer > p >a{
+    text-decoration: none;
+    color: white;
+}
+
+footer >p >a:hover{
+    color: rgb(192, 43, 43);
+}
