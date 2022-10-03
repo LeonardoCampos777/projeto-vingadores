@@ -83,6 +83,8 @@ section.imagem{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 0px 2px 10px black;
+
 }
 
 section#img1{
