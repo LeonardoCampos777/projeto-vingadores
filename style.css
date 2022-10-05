@@ -75,7 +75,10 @@ section >p{
     text-align: justify;
     font-size: 1.1em;
     font-weight: bolder;
+    text-shadow: 2px 2px rgb(190, 183, 183);
 }
+
+
 
 section.imagem{
     
@@ -84,6 +87,7 @@ section.imagem{
     background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 0px 2px 10px black;
+    min-height: 100vh;
 
 }
 
@@ -118,7 +122,12 @@ section#img4{
 }
 
 section#img5{
-    background-image: url(imagens/homemaranha.jpg);
+    background-image: url(imagens/viuvanegra.jpg);
+    height: 100vh;
+}
+
+section#img6{
+    background-image: url(imagens/gaviao.jpg);
     height: 100vh;
 }
 
@@ -128,7 +137,7 @@ footer{
     text-align: center;
     font-family: 'Fredoka One', cursive;
     font-size: bolder;
-    padding: 5px;
+    padding: 10px;
 }
 
 footer > p >a{
